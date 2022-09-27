@@ -19,3 +19,9 @@ h1 {
 .name {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.avatar-span {
+  font-size: 0.7em;
+  z-index: 1000;
+  letter-spacing: -1px;
+}

@@ -12,8 +12,11 @@ function HomeAvatar ({ change }) {
   }
   return (
     <>
-      <Col xs={12} md={change ? 6 : 8} className={`d-flex ${change ? 'justify-content-end ' : 'justify-content-center'} align-items-center p-4`}>
-        <img onMouseEnter={(event) => changeImage(event)} onMouseLeave={(event) => changeImage(event)} src={src} className="avatar rounded-circle animate__animated animate__zoomIn" width={change ? 350 : 200} height={change ? 350 : 200} alt="Avatar" />
+      <Col xs={12} md={change ? 6 : 8} className={`d-flex  ${change ? 'justify-content-end ' : 'justify-content-center'} align-items-center p-4`}>
+        <div className='position-relative '>
+          <img onMouseEnter={(event) => changeImage(event)} onMouseLeave={(event) => changeImage(event)} src={src} className="avatar rounded-circle animate__animated animate__zoomIn" width={change ? 350 : 200} height={change ? 350 : 200} alt="Avatar" />
+          <span className=' avatar-span  position-absolute start-0 top-50 m-3 text-white text-center bg-black p-2 rounded opacity-50 '> Want to see Solomon? <br />Hover!</span>
+        </div>
       </Col>
     </>
   )

@@ -3,6 +3,7 @@ import './Home.css'
 import { Row, Col, Button } from 'react-bootstrap'
 import HomeAvatar from './HomeAvatar'
 import HomeBody from './HomeBody'
+import { FaSmileWink } from 'react-icons/fa'
 
 function Home () {
   const [change, setChange] = useState(false)
@@ -22,10 +23,13 @@ function Home () {
       <Row id='home' className='g-4 justify-content-center align-item-center'>
         <HomeAvatar change={change} />
         <HomeBody change={change} />
-        <Button variant='link' className="layout-btn text-white m-5 p-0 d-none d-md-block " onClick={changeLayout}> Want a different layout? Change Layout!</Button>
+        <div class="p-0 m-0 d-flex justify-content-center align-items-center">
+          <Button variant='outline-light' className="layout-btn  m-5 p-2 px-3 " onClick={changeLayout}> Want a different layout? Change Layout! <FaSmileWink size={20} /> </Button>
+        </div>
       </Row>
     </>
   )
 }
+
 
 export default Home
