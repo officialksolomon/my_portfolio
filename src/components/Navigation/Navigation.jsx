@@ -5,7 +5,7 @@ import './Navigation.css'
 
 function Navigation () {
   return (
-    <Navbar bg="none" expand="lg">
+    <Navbar id='navigation' bg="none" expand="lg">
       <Container fluid className='px-md-5'>
         <Navbar.Brand href="#home" className="text-warning fw-bold p-3 "><span className='brand-span d-inline-block d-flex flex-column justify-content-center align-items-center p-2 rounded-circle text-center'>SU</span></Navbar.Brand>
         <Navbar.Toggle className="border-0 " aria-controls="basic-navbar-nav" />
