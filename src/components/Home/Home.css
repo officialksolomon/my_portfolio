@@ -1,0 +1,21 @@
+.avatar {
+  background-color: rgb(99, 26, 88);
+}
+
+
+
+h1 {
+  letter-spacing: -1px;
+}
+
+#surname{
+  margin-top: -5px;
+}
+
+.layout-btn{
+  font-size: 0.8em;
+}
+
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

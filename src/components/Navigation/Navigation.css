@@ -1,0 +1,22 @@
+.navbar-toggler-icon {
+  background-image: url('../../assets/images/menu.png') ;
+}
+
+.navbar-toggler {
+  border: 0;
+  text-decoration: none;
+}
+.navbar-toggler:focus {
+box-shadow: none;
+}
+
+.brand-span {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(99, 26, 88);
+  font-size: 2em;
+}
+
+.nav-link{
+  font-size: 0.9em;
+}
