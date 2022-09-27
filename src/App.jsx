@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Navigation from './components/Navigation'
 import Social from './components/Social/Social'
 import Footer from './components/Footer/Footer'
+import Works from './components/Works/Works'
 
 function App () {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App () {
       <Navigation />
       <Home />
       <Skills />
+      <Works />
       <Social />
       <Footer />
     </Container>

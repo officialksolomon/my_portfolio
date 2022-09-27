@@ -13,12 +13,13 @@ function HomeBody ({ change }) {
         <hr className='w-50 text-white-50 m-0' />
         <p className={`p  text-white ${change ? 'text-right' : 'text-center px-5'} fw-light  animate__animated animate__fadeInUp`}>
           I am a Fullstack Developer skilled with knowledge on UI/UX designs. <br />
-          I am a detail oriented individual.
+          I am a detail oriented individual. <br />
+          I can turn ideas to beautiful and functional modern  web, <br /> mobile & desktop applictions.
         </p>
 
 
-        <Button variant="warning" className="rounded-0   animate__animated animate__fadeInUp" onClick={() => console.log("Primary")}>
-          <a href="#skills" className='text-decoration-none text-black'> My Work</a>
+        <Button variant="warning" className="rounded-5 px-4  animate__animated animate__fadeInUp" onClick={() => console.log("Primary")}>
+          <a href="#works" className='text-decoration-none text-black'> My Work</a>
         </Button>
         {/* <Button variant="outline-warning" className="rounded-0  animate__animated animate__fadeInUp" >
             <a href="#skills" className='text-decoration-none text-white'> My Skills</a>
