@@ -4,3 +4,14 @@ https://github.com/officialksolomon/my_blog
 https://portfolio-rmqbc3bh8-officialksolomon.vercel.app/
 https://github.com/officialksolomon/portfolio
 
+//Safe surf
+https://addons.mozilla.org/en-US/firefox/addon/safe-surf/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+https://github.com/officialksolomon/safe_surf
+Automatically closes every active tab containing explicit sexual contents. This works by continuously searching for vulgar word from a list of vulgar words popularly associated with explicit sexual contents.
+
+
+
+https://github.com/ulims/lazer
+https://lazerulims.herokuapp.com/
+P2P marketplace for trading their digital asset such as social accounts
+and Crypto assets with vendors 

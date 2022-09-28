@@ -11,7 +11,7 @@ function Works () {
           <hr className='w-100 text-white-50' />
         </Col>
         <Col xs={12}>
-          <h3 className='text-warning'>Coming Soon...</h3>
+          <h3 className='text-white'>Coming Soon...</h3>
         </Col>
 
       </Row>
