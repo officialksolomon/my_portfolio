@@ -7,8 +7,9 @@ function WorkItem () {
   return (
     <>
       <Col xs={12} sm={6} md={4} className=''>
-        <div className='rounded d-flex justify-content-center align-items-center border border-light border-opacity-25'>
+        <div className='rounded d-flex justify-content-center align-items-center border border-light border-opacity-25 position-relative'>
           <img src={work3} alt="work" className='w-100' />
+          <span className='postion-absolute start-0 end-0'>InfoR</span>
         </div>
       </Col>
     </>
