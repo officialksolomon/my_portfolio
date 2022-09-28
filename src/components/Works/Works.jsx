@@ -1,5 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+import { WorkList } from './WorkList'
+
 
 
 function Works () {
@@ -10,10 +12,7 @@ function Works () {
           <h5 className='text-warning'>My Works</h5>
           <hr className='w-100 text-white-50' />
         </Col>
-        <Col xs={12}>
-          <h3 className='text-white'>Coming Soon...</h3>
-        </Col>
-
+        <WorkList />
       </Row>
     </>
   )
