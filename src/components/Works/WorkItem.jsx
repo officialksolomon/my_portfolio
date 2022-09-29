@@ -19,8 +19,8 @@ function WorkItem ({ img, name, description, sourceLink, liveLink }) {
           <div className={`work-description position-absolute w-100 h-100 p-4  text-white overflow-none ${open ? '' : 'd-none'}`}>
             <p className=' h-75 w-100 overflow-scroll'>{description}</p>
             <div className='w-100 d-flex justify-content-start  align-items-center mt-2 w-100 border-top py-2'>
-              <a name="" id="" class="btn btn-outline-light px-4  rounded " href={sourceLink} role="button">Source <FaGithub /> </a>
-              <a name="" id="" class="btn btn-light px-4 mx-4 rounded" href={liveLink} role="button">Demo <FaEye /> </a>
+              <a name="" id="" class="btn btn-outline-light  rounded " href={sourceLink} role="button">Source <FaGithub /> </a>
+              <a name="" id="" class="btn btn-light  mx-4 rounded" href={liveLink} role="button">Demo <FaEye /> </a>
             </div>
           </div>
           <img src={img} alt="work" className='w-100' />
