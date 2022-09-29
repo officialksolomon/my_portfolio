@@ -13,6 +13,9 @@ function Works () {
           <hr className='w-100 text-white-50' />
         </Col>
         <WorkList />
+        <Col xs={12}>
+          <h5 className='text-white  fst-italic'>Adding more works soon....</h5>
+        </Col>
       </Row>
     </>
   )
