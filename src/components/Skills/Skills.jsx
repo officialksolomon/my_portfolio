@@ -9,7 +9,7 @@ import SkillList from './SkillList'
 function Skills () {
   return (
     <>
-      <Row id="skills" className='p-5 g-5 mt-5'>
+      <Row id="skills" className='p-3 g-5 mt-5'>
         <Col xs={12}>
           <h5 className='text-warning'>Skills</h5>
           <hr className='w-100 text-white-50' />
