@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import WorkList  from './WorkList'
-
+import WorkList from './WorkList'
+import './Works.css'
 
 
 function Works () {

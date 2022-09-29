@@ -11,9 +11,9 @@ function Navigation () {
         <Navbar.Toggle className="border-0 " aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav ">
           <Nav className="me-auto  w-100 d-flex justify-content-end ">
-            <Nav.Link href="#skills" className="text-warning m-3 btn">SKILLS</Nav.Link>
-            <Nav.Link href="#works" className="text-warning m-3 btn">WORKS</Nav.Link>
-            <Nav.Link target={'_blank'} href="https://drive.google.com/file/d/1b1WvdHQgs8PpFJ-QbRznVyrbvmxgHui-/view?usp=sharing" className="text-warning m-3 btn">RESUME</Nav.Link>
+            <Nav.Link href="#skills" className="text-white m-3 btn">SKILLS</Nav.Link>
+            <Nav.Link href="#works" className="text-white m-3 btn">WORKS</Nav.Link>
+            <Nav.Link target={'_blank'} href="https://drive.google.com/file/d/1b1WvdHQgs8PpFJ-QbRznVyrbvmxgHui-/view?usp=sharing" className="text-white m-3 btn">RESUME</Nav.Link>
             <Nav.Link href="#socials" className=" m-3 btn  btn-warning px-4 rounded-5">Talk to Me <FaSmileWink size={20} /> </Nav.Link>
           </Nav>
         </Navbar.Collapse>

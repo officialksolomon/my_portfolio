@@ -1,26 +1,13 @@
 import React from 'react'
-import { Col } from 'react-bootstrap'
+import WorkItem from './WorkItem'
 import work3 from '../../assets/images/my-work/work3.png'
 
-// { img, name, sourceLink, liveLink }
-function WorkItem () {
-  return (
-    <>
-      <Col xs={12} sm={6} md={4} className=''>
-        <div className='rounded d-flex justify-content-center align-items-center border border-light border-opacity-25 position-relative'>
-          <img src={work3} alt="work" className='' />
-          <span className='postion-absolute start-0 end-0'>InfoR</span>
-        </div>
-      </Col>
-    </>
-  )
-}
-
+const description = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Culpa voluptatum fuga nostrum aliquam, ex beatae deleniti at recusandae consectetur esse, tenetur fugit a optio alias explicabo! Aliquid soluta eligendi fugiat.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Architecto a alias veniam corrupti reprehenderit.Autem, suscipit! Sapiente pariatur quaerat dolorum, voluptates, saepe, alias voluptatum nulla similique amet obcaecati minima ad ?Lorem ipsum, dolor sit amet consectetur adipisicing elit.Provident quas, voluptatibus, esse dolores maxime, doloribus fugit ea deserunt laborum expedita assumenda magnam nesciunt aut officiis sed consequatur illo odit quo.'
 
 function WorkList () {
   return (
     <>
-      <WorkItem />
+      <WorkItem name={'InfoR'} img={work3} description={description} sourceLink={'https://github.com/officialksolomon/my_blog'} liveLink={'https://my-blog-sigma-topaz.vercel.app/'} />
     </>
   )
 }
