@@ -19,7 +19,7 @@ function HomeBody ({ change }) {
 
 
         <Button variant="warning" className="rounded-5 px-4  animate__animated animate__fadeInUp" onClick={() => console.log("Primary")}>
-          <a href="#works" className='text-decoration-none text-black'> My Work</a>
+          <a href="#works" className='text-decoration-none text-black'> My Works </a>
         </Button>
         {/* <Button variant="outline-warning" className="rounded-0  animate__animated animate__fadeInUp" >
             <a href="#skills" className='text-decoration-none text-white'> My Skills</a>

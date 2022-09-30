@@ -45,6 +45,7 @@ h1 {
 
 .back-to-top{
   font-size: 0.7em !important;
+  z-index: 10000;
 }
 
 p{
