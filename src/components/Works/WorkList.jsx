@@ -11,7 +11,7 @@ function WorkList () {
   return (
     <>
       <WorkItem name={'InfoR'} img={work3}
-        description={"InfoR is a modern blog API featuring top and well articulated articles."}
+        description={"InfoR is a modern blog API featuring top and well articulated articles. A portfolio project."}
         sourceLink={'https://github.com/officialksolomon/my_blog'} liveLink={'https://my-blog-sigma-topaz.vercel.app/'} />
       <WorkItem name={'Safe Surf'} img={work7}
         description={" Safe Surf is s firefox extension that automatically closes every active tab containing explicit sexual contents. This works by continuously searching for vulgar word from a list of vulgar words popularly associated with explicit sexual contents."}
