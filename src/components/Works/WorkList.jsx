@@ -20,6 +20,10 @@ function WorkList () {
         description={"Lazer P2P marketplace for trading their digital asset such as  Crypto assets with vendors."}
         sourceLink={'https://github.com/ulims/lazer'} liveLink={'https://lazerulims.herokuapp.com/'} />
     </>
+      <WorkItem name={'JSBC'} img={work8}
+        description={"JSBC is a Forex Company Website know for helping investors earn money from the forex market through account management coaching etc...."}
+        sourceLink={'https://github.com/officialksolomon/jsbc'} liveLink={'https://www.jsbc.com.ng/'} />
+    </>
   )
 }
 
