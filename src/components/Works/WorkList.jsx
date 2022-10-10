@@ -4,6 +4,7 @@ import work3 from '../../assets/images/my-work/work3.png'
 import work7 from '../../assets/images/my-work/work7.png'
 import work8 from '../../assets/images/my-work/work8.png'
 import work6 from '../../assets/images/my-work/work6.png'
+import work1 from '../../assets/images/my-work/work1.png'
 
 
 
@@ -24,6 +25,9 @@ function WorkList () {
       <WorkItem name={'JSBC'} img={work6}
         description={"JSBC is a Forex Company Website know for helping investors earn money from the forex market through account management coaching etc...."}
         sourceLink={'https://github.com/officialksolomon/jsbc'} liveLink={'https://www.jsbc.com.ng/'} />
+      <WorkItem name={'Phone Book'} img={work1}
+        description={"Modern and response Phonebook Which lets you  store, search, edit , delete  and add contact on the web"}
+        sourceLink={'https://github.com/officialksolomon/phone-book'} liveLink={'https://phone-book-kappa.vercel.app/'} />
     </>
   )
 }
