@@ -26,7 +26,7 @@ function WorkList () {
         description={"JSBC is a Forex Company Website know for helping investors earn money from the forex market through account management coaching etc...."}
         sourceLink={'https://github.com/officialksolomon/jsbc'} liveLink={'https://www.jsbc.com.ng/'} />
       <WorkItem name={'Phone Book'} img={work1}
-        description={"Modern and response Phonebook Which lets you  store, search, edit , delete  and add contact on the web"}
+        description={"Modern and responsive Phonebook which lets you  store, search, edit , delete  and add contact on the web"}
         sourceLink={'https://github.com/officialksolomon/phone-book'} liveLink={'https://phone-book-kappa.vercel.app/'} />
     </>
   )
